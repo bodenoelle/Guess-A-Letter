@@ -4,7 +4,7 @@ alphabets = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N
 
 random_alpha = random.choice(alphabets)
 
-print('your random selection', random_alpha)
+# print('your random selection', random_alpha)
 
 print('************GUESS THE ALPHABET***********')
 
@@ -32,3 +32,4 @@ while chances > 0:
 
         if chances == 0:
             print('Game Over!!!')
+            print('Correct guess is', random_alpha)
